@@ -206,7 +206,7 @@ class System extends SystemBase
 
 	// Subprocesses --------------------------------------------------------------------------------
 
-	/** Execute a synchronous command and returns the `stdout` result.
+	/** Execute a synchronous command.
 	 * @param {Array.<String>} aCommand - The command line to execute (command and arguments in an
 	 * array).
 	 * @returns {Array.<Any>} Returns and array of the following values:

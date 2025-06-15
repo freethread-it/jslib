@@ -75,7 +75,7 @@ class SystemBase
 	 * @param {String} sText - The input string to split.
 	 * @param {String} cSeparator - One character separator.
 	 * @returns {Array.<String>} Return the resulting array. */
-	splitString (sText, cSeparator)
+	stringSplit (sText, cSeparator)
 	{
 		var a = [];
 		if ((typeof sText === "string") && (sText != ""))
@@ -98,10 +98,6 @@ class SystemBase
 						sText = "";
 					}
 				}
-
-
-				//a = sText.split (cSeparator);
-				//if (a === "undefined") a[0] = sText;
 			}
 			else a[0] = sText;
 		}
